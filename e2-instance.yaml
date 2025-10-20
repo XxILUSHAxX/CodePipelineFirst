@@ -6,9 +6,9 @@ Resources:
     Type: "AWS::EC2::Instance"
     Properties:
       InstanceType: "t2.micro"
-      ImageId: "ami-0793ace9dd5de0095"
+      ImageId: "ami-0cfd97b21ff337f66"
       SecurityGroupIds:
-        - "sg-050596cc34e89dc28"
+        - "sg-05bdc99962022e3c4"
       Tags:
         - Key: Name
           Value: MyEC2Instanceilie
